@@ -53,3 +53,9 @@ node frontend/server.mjs --audio ./recording.webm --json ./diarization_result.js
 ```
 
 `--dev` を付けると開発サーバー、`--port 5174` を付けるとポートを変更できます。
+
+## License
+
+[MIT](LICENSE)
+
+なお、モデル（nvidia/Nemotron-3-Diarization）自体は [OpenMDW-1.1](https://openmdw.ai/license/1-1/) で提供されています。
