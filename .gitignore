@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.DS_Store
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/playwright-report/
+frontend/test-results/
+
+# 音声・動画・推論結果（データは公開しない）
+*.webm
+*.mp4
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+diarization_result*.json
+*-viewer.html

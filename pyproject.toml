@@ -1,0 +1,16 @@
+[project]
+name = "nemotron-3-diarization-sample"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "av>=18.1.0",
+    "librosa>=1.0.0",
+    "torch>=2.14.0",
+    "torchaudio>=2.11.0",
+    "transformers",
+]
+
+[tool.uv.sources]
+transformers = { git = "https://github.com/huggingface/transformers" }
